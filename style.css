@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
+    font-family: 'Josefin Slab', serif;
 }
 
 body {
@@ -18,15 +19,18 @@ body {
     border-bottom: 2px solid goldenrod;
 }
 
+/*Button Dropdown*/
 nav .dropdown {
     background-color: black;
     border: 2px solid goldenrod;
+    z-index: 1;
 }
 
 nav .dropdown i {
     color: goldenrod;
 }
 
+/*Menu Dropdown*/
 nav .dropdown-menu{
     border: 2px solid goldenrod;
     border-radius: 3rem;
@@ -49,6 +53,7 @@ nav .dropdown li i {
     font-size: 2.5rem;
 }
 
+/*Title*/
 nav h1 a {
     margin-right: 10rem;
     background-color: transparent;
@@ -56,5 +61,14 @@ nav h1 a {
     color: white;
     position: relative;
     bottom: 1rem;
-    margin-top: 0.2rem;
+    margin-top: 0.5rem;
 }
+
+ /*----------Fin Header*------------*/
+
+ /*----------Start Slider-----------*/
+.carousel-item img {
+    height: 20rem;
+}
+
+
