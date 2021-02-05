@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+}
+
+.navbar {
+    background-color: black;
+    max-width: 100%;
+    max-height: 3rem;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+}
+
+nav .dropdown {
+    background-color: black;
+    border: 2px solid goldenrod;
+}
+
+nav .dropdown i {
+    color: goldenrod;
+}
+
+nav .dropdown-menu{
+    border: 2px solid goldenrod;
+    border-radius: 3rem;
+    background-color: white;
+    position: absolute;
+    width: auto;
+} 
+
+.dropdown-divider {
+    background-color: goldenrod;
+    height: 2px;
+}
+
+nav li a {
+    font-size: 2rem;
+}
+
+nav .dropdown li i {
+    color: goldenrod;
+    font-size: 2.5rem;
+}
+
+nav h1 a {
+    margin-right: 10rem;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 1rem;
+    margin-top: 0.2rem;
+}
